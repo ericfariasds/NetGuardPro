@@ -42,7 +42,7 @@ docker compose up -d
 1. Abra `http://localhost:8080` no navegador.
 2. Crie sua conta de administrador.
 3. Adicione o primeiro servidor a ser monitorado (IP + credenciais de acesso).
-4. Pronto — em poucos segundos as métricas começam a aparecer no painel.
+4. Pronto em poucos segundos as métricas começam a aparecer no painel.
 
 > **Dica:** comece monitorando apenas 1-2 servidores críticos antes de adicionar toda a sua infraestrutura. Isso facilita validar alertas e regras de firewall sem ruído.
 
@@ -72,7 +72,7 @@ docker compose up -d
 3. Um alerta é enviado à equipe, com o histórico de métricas que originou a transição.
 4. A equipe usa o painel para confirmar que o serviço se estabilizou, sem precisar intervir manualmente.
 
-**Resultado:** o tempo de inatividade passa de minutos para segundos, e a equipe ganha visibilidade do que causou o problema — sem precisar investigar logs manualmente.
+**Resultado:** o tempo de inatividade passa de minutos para segundos, e a equipe ganha visibilidade do que causou o problema sem precisar investigar logs manualmente.
 
 ---
 
@@ -90,7 +90,7 @@ netguard-pro/
 └── docker-compose.yml
 ```
 
-Cada módulo tem seu próprio `README.md` com detalhes de implementação. Comece por `monitor/` e `api/` se for sua primeira contribuição — são os módulos mais bem documentados.
+Cada módulo tem seu próprio `README.md` com detalhes de implementação. Comece por `monitor/` e `api/` se for sua primeira contribuição são os módulos mais bem documentados.
 
 ---
 
@@ -120,7 +120,7 @@ Documentação completa de endpoints, autenticação e limites de requisição: 
 
 ## Como Contribuir
 
-1. **Abra uma issue** descrevendo o bug ou a melhoria antes de começar a codificar — isso evita trabalho duplicado.
+1. **Abra uma issue** descrevendo o bug ou a melhoria antes de começar a codificar isso evita trabalho duplicado.
 2. **Crie um branch** a partir de `main`: `feature/nome-da-funcionalidade` ou `fix/nome-do-bug`.
 3. **Siga o padrão de código** do projeto: ESLint para o frontend (`dashboard/`), PEP 8 para os módulos em Python (`monitor/`, `failover/`).
 4. **Escreva testes** para qualquer nova funcionalidade ou correção (`tests/`).
