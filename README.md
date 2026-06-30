@@ -1,6 +1,8 @@
 # NetGuard Pro
 
-Gerenciamento e segurança de rede em tempo real — monitore, proteja e otimize sua infraestrutura a partir de um único painel.
+[🇬🇧 English](./README.en.md) | [🇪🇸 Español](./README.es.md)
+
+Gerenciamento e segurança de rede em tempo real monitore, proteja e otimize sua infraestrutura a partir de um único painel.
 
 NetGuard Pro acompanha continuamente o desempenho dos seus servidores (CPU, memória, disco, latência, perda de pacotes), aciona failover automático quando algo falha, e protege sua rede com firewall configurável e detecção de ameaças.
 
